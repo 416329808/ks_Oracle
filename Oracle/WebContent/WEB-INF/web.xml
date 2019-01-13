@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Oracle</display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.CheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BusinessAdminsinfoServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.BusinessAdminsinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChapterinfoServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ChapterinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChapterAddServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ChapterAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChapterdeleteServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ChapterdeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChapterUpdateServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.ChapterUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuestionsinfoServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QuestionsinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuestionsAddServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QuestionsAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuestionsDeleteServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QuestionsDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuestionsUpdateServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QuestionsUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of QueryAllTeacherServlet</description>
+    <display-name>This is the display name of QueryAllTeacherServlet</display-name>
+    <servlet-name>QueryAllTeacherServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QueryAllTeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of QueryStudentBytextServlet</description>
+    <display-name>This is the display name of QueryStudentBytextServlet</display-name>
+    <servlet-name>QueryStudentBytextServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QueryStudentBytextServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of QueryStudentByIdServlet</description>
+    <display-name>This is the display name of QueryStudentByIdServlet</display-name>
+    <servlet-name>QueryStudentByIdServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QueryStudentByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of AddStudentServlet</description>
+    <display-name>This is the display name of AddStudentServlet</display-name>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.AddStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of QueryAdmininfoServlet</description>
+    <display-name>This is the display name of QueryAdmininfoServlet</display-name>
+    <servlet-name>QueryAdmininfoServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QueryAdmininfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of QueryTextBytextServlet</description>
+    <display-name>This is the display name of QueryTextBytextServlet</display-name>
+    <servlet-name>QueryTextBytextServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.QueryTextBytextServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <description>This is the description of AddQuestionTypeServlet</description>
+    <display-name>This is the display name of AddQuestionTypeServlet</display-name>
+    <servlet-name>AddQuestionTypeServlet</servlet-name>
+    <servlet-class>com.oracle.servlet.AddQuestionTypeServlet</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/CheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BusinessAdminsinfoServlet</servlet-name>
+    <url-pattern>/BusinessAdminsinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChapterinfoServlet</servlet-name>
+    <url-pattern>/ChapterinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChapterAddServlet</servlet-name>
+    <url-pattern>/ChapterAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChapterdeleteServlet</servlet-name>
+    <url-pattern>/ChapterdeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChapterUpdateServlet</servlet-name>
+    <url-pattern>/ChapterUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionsinfoServlet</servlet-name>
+    <url-pattern>/QuestionsinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionsAddServlet</servlet-name>
+    <url-pattern>/QuestionsAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionsDeleteServlet</servlet-name>
+    <url-pattern>/QuestionsDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionsUpdateServlet</servlet-name>
+    <url-pattern>/QuestionsUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllTeacherServlet</servlet-name>
+    <url-pattern>/QueryAllTeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryStudentBytextServlet</servlet-name>
+    <url-pattern>/QueryStudentBytextServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryStudentByIdServlet</servlet-name>
+    <url-pattern>/QueryStudentByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <url-pattern>/AddStudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAdmininfoServlet</servlet-name>
+    <url-pattern>/QueryAdmininfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryTextBytextServlet</servlet-name>
+    <url-pattern>/QueryTextBytextServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>AddQuestionTypeServlet</servlet-name>
+    <url-pattern>/AddQuestionTypeServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
